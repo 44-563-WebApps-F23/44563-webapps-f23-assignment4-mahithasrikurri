@@ -9,27 +9,25 @@ color: black;
  color: black;
  background-color: lightpink;
 }
-
-.name {
-font-family: 'Courier New', Courier, monospace;
-font-size: 14;
-color:black;
-
+.KAIA{
+    color: fuchsia;
 }
-.name:hover{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    color: purple;
+.SOLNESS{
+    color: maroon;
 }
 .direction:hover{
    color: yellow; 
    background-color: antiquewhite;
 }
-.KAIA {
-    color: red;
+.KAIA:hover { 
+    text-shadow:2px 2px chocolate;
+    border:2px solid aqua;
+    cursor:pointer;
 }
-.SOLNESS {
-    color: greenyellow;
+.SOLNESS:hover {
+    text-shadow:2px 2px darkblue;
+    border:2px solid darkolivegreen;
+    cursor:pointer;
 }
 table { 
     width: auto;
