@@ -32,7 +32,8 @@ color: black;
 table { 
     width: auto;
     border-collapse: collapse;  
-    width: 90%; 
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 th, td {
     border: 2px solid violet;
@@ -40,11 +41,11 @@ th, td {
     text-align: left;
     color: blueviolet;
 }
+tr:nth-child(even){
+    background-color: cornsilk;
+}
 
 th {
     background-color: lightcyan;
 }
 
-tr:nth-child(even) {
-    background-color: lightslategray;
-}
