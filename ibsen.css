@@ -18,12 +18,12 @@ color: black;
     color:darkorange;
 }
 .KAIA:hover { 
-    text-shadow:2px 2px chocolate;
+    text-shadow:5px 5px 5px rgb(232, 162, 112);
     border:2px solid aqua;
     cursor:pointer;
 }
 .SOLNESS:hover {
-    text-shadow:2px 2px darkblue;
+    text-shadow:2px 2px 4px darkblue;
     border:2px solid darkolivegreen;
     cursor:pointer;
 }
@@ -53,4 +53,39 @@ tr:nth-child(even){
 th {
     background-color: lightcyan;
 }
+li {
+
+    display: inline;
+
+}
+
+ 
+
+li {
+
+    float: left;
+
+}
+
+ 
+
+li {
+
+    float: left;
+
+}
+
+ 
+
+li {
+
+    display: block;
+
+    padding: 8px;
+
+    background-color: rgb(95, 110, 220);
+
+}
+
+
 
