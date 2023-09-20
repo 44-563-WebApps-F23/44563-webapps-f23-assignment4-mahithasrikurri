@@ -9,15 +9,13 @@ color: black;
  color: black;
  background-color: lightpink;
 }
-.KAIA{
-    color: fuchsia;
-}
-.SOLNESS{
-    color: maroon;
-}
 .direction:hover{
-   color: yellow; 
-   background-color: antiquewhite;
+    color: yellow; 
+    background-color: antiquewhite;
+ }
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkorange;
 }
 .KAIA:hover { 
     text-shadow:2px 2px chocolate;
@@ -29,6 +27,13 @@ color: black;
     border:2px solid darkolivegreen;
     cursor:pointer;
 }
+.KAIA{
+    color: fuchsia;
+}
+.SOLNESS{
+    color: maroon;
+}
+
 table { 
     width: auto;
     border-collapse: collapse;  
